@@ -1,8 +1,18 @@
+@font-face {
+  font-family: Inter;
+  src: url(/fonts/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: Inter-Bold;
+  src: url(/fonts/Inter-Bold.ttf);
+}
+
 body {
-  background-color: #202020;
-  font-size: 1rem;
-  line-height: 1.5;
   text-align: justify;
-  color: white;
+  line-height: 1.5;
   letter-spacing: 1px;
+  font-size: 1.13rem;
+  font-family: Inter, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+  background-color: #202020;
 }
