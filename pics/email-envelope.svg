@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    id="svg2"
+    sodipodi:docname="email_envelope.svg"
+    viewBox="0 0 364.45 221.59"
+    version="1.1"
+    inkscape:version="0.47 r22583"
+  >
+  <title
+      id="title4119"
+    >envelope</title
+  >
+  <defs
+      id="defs4"
+    >
+    <filter
+        id="filter3983"
+        height="1.5"
+        width="1.5"
+        color-interpolation-filters="sRGB"
+        y="-.25"
+        x="-.25"
+        inkscape:label="Drop shadow"
+      >
+      <feGaussianBlur
+          id="feGaussianBlur3985"
+          result="blur"
+          stdDeviation="2.000000"
+          in="SourceAlpha"
+      />
+      <feColorMatrix
+          id="feColorMatrix3987"
+          values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.500000 0 "
+          type="matrix"
+          result="bluralpha"
+      />
+      <feOffset
+          id="feOffset3989"
+          result="offsetBlur"
+          dy="4.000000"
+          dx="4.000000"
+          in="bluralpha"
+      />
+      <feMerge
+          id="feMerge3991"
+        >
+        <feMergeNode
+            id="feMergeNode3993"
+            in="offsetBlur"
+        />
+        <feMergeNode
+            id="feMergeNode3995"
+            in="SourceGraphic"
+        />
+      </feMerge
+      >
+    </filter
+    >
+  </defs
+  >
+  <sodipodi:namedview
+      id="base"
+      bordercolor="#666666"
+      inkscape:pageshadow="2"
+      inkscape:guide-bbox="true"
+      pagecolor="#ffffff"
+      inkscape:window-height="747"
+      inkscape:window-maximized="1"
+      inkscape:zoom="0.7"
+      inkscape:window-x="0"
+      showgrid="false"
+      borderopacity="1.0"
+      inkscape:current-layer="layer1"
+      inkscape:cx="268.34456"
+      inkscape:cy="29.300702"
+      showguides="true"
+      inkscape:window-y="29"
+      inkscape:window-width="1280"
+      showborder="false"
+      inkscape:pageopacity="0.0"
+      inkscape:document-units="px"
+  />
+  <g
+      id="layer1"
+      inkscape:label="Layer 1"
+      inkscape:groupmode="layer"
+      transform="translate(-124.92 -224.42)"
+    >
+    <g
+        id="g4103"
+        inkscape:export-ydpi="90"
+        inkscape:export-xdpi="90"
+        inkscape:export-filename="/home/bogdanco/envelope.png"
+      >
+      <path
+          id="rect2816"
+          d="m68.571 132.36h557.14v328.57h-557.14v-328.57z"
+          style="stroke-linejoin:round;fill-rule:evenodd;filter:url(#filter3983);stroke:#8c0000;stroke-width:25.974;fill:#ffffff"
+          transform="matrix(.5 0 0 .5 133.57 186.9)"
+      />
+      <path
+          id="path3590"
+          style="opacity:.20444;stroke-linejoin:round;stroke:#8c0000;stroke-width:9;fill:none"
+          d="m167.49 418.43c46.453-27.5 92.906-55 139.36-82.5-46.453 27.5-92.906 55-139.36 82.5zm139.65-82.5c46.551 27.146 93.101 54.292 139.65 81.438-46.551-27.146-93.101-54.292-139.65-81.438z"
+      />
+      <path
+          id="path3592"
+          style="stroke-linejoin:round;stroke:#8c0000;stroke-width:13;fill:#ffffff"
+          d="m170.33 253.76c46.014 32.044 92.028 64.087 138.04 96.131 45.196-32.163 90.393-64.326 135.59-96.489l-273.63 0.35736z"
+      />
+      <g
+          id="text2878"
+          style="opacity:.62889;fill:#590000"
+          transform="matrix(0 -.5 .5 0 139.29 185.47)"
+        >
+        <path
+            id="path3667"
+            d="m-393.87 100.98c11.193-7.4298-1.9764-30.629 15.28-16.52-23.013-8.8997 17.236 17.428-7.48 17.44 12.535-21.357-5.9381 4.8178-7.8-0.92z"
+        />
+        <path
+            id="path3669"
+            d="m-355.69 84.86c-7.714-14.836-4.6717 23.716-16.31-2.76-7.257-1.0098 20.166 39.461 11.43 11.28 2.2243-2.3552 4.1691-5.3518 4.88-8.52z"
+        />
+        <path
+            id="path3671"
+            d="m-345.75 88.1c2.1402-16.359-15.969-1.0317-2.36-3.32-5.8269 5.5333-4.7094 30.345 0.32 27.52-1.4277-8.1864 0.73444-16.179 2.04-24.2z"
+        />
+        <path
+            id="path3673"
+            d="m-324.47 80.82c-16.705-10.697-24.815 38.86-12.36 6.04 18.067-16.426-2.9326 11.814 11.44 13.08-5.259-7.1922-0.6162-12.205 0.92-19.12z"
+        />
+        <path
+            id="path3675"
+            d="m-307.51 86.22c-18.404-13.847-16.371 35.216-1.48 7.92l1.72-5.84-0.24-2.08zm-3.36 0.72c-1.6842 27.048-19.795 2.844 0 0z"
+        />
+        <path
+            id="path3677"
+            d="m-288.99 87.9c0.87088-13.452-15.428 15.037-13.8-7.4-0.0343 12.943-6.9582 29.622 6.04 12.36 7.2555-4.1482 3.4698 22.588 6.76 3.04l0.8-5.28 0.2-2.72z"
+        />
+        <path
+            id="path3679"
+            d="m-286.76 81.42c12.932-4.5706 0.42555 14.003 17.44 4.8-3.3278-17.637 7.6425 11.158-7.4 6.16 10.295 6.8867 6.3454 32.542-0.08 20.68 13.699-5.517-11.189-23.384-9.96-31.64z"
+        />
+        <path
+            id="path3681"
+            d="m-245.96 93.1c2.3192-22.944-35.916 1.9913-5.64-5.04-12.693 5.6094-15.626 7.3437 0.36 5.04-2.288 8.815-11.763 22.673 2.68 5.76l1.95-2.86 0.65001-2.9z"
+        />
+        <path
+            id="path3683"
+            d="m-232.13 86.34c-17.091-21.71-15.096 28.545 0 0zm-0.4 10.4c-9.0167-2.8017-14.622 16.812-3.4 2.4l3.4-2.4zm-2.68-7.8c-9.7713 10.432-5.342-13.098 0 0z"
+        />
+        <path
+            id="path3685"
+            d="m-213 86.34c-15.023-13.043-18.957 21.105-16.28 32.12 8.304-10.231 19.521-15.233 1.72-10.46-1.2751-7.2211 3.6475-29.623 14.56-21.66z"
+        />
+      </g
+      >
+    </g
+    >
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >Envelope with some alien writing</dc:title
+        >
+        <dc:date
+          >2013-01-02T11:37:11</dc:date
+        >
+        <dc:description
+          >An envelope with some alien writing on it. Font used was Mexlar (http://www.fontspace.com/cumberland-fontworks/mexlar)</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/174016/envelope-with-some-alien-writing-by-bogdanco-174016</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >bogdanco</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >email</rdf:li
+            >
+            <rdf:li
+              >envelope</rdf:li
+            >
+            <rdf:li
+              >writing</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>

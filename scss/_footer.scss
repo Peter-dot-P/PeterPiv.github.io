@@ -10,5 +10,30 @@
 
 #contact__grid {
   display: grid;
-  background-color: #f56161;
+  gap: 1rem;
+}
+
+.contact__item {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  position: relative;
+  top: 2rem;
+  margin: auto;
+  &:nth-of-type(1) {
+    img {
+      position: relative;
+      transform: translate(0, 50%);
+    }
+  }
+  &:nth-of-type(2) {
+    img {
+      position: relative;
+      transform: translate(5%, 25%);
+    }
+    img {
+      width: 80%;
+      margin: auto;
+    }
+  }
 }
