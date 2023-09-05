@@ -97,7 +97,7 @@ nav {
   min-width: 2rem;
   align-items: center;
   position: relative;
-  bottom: 0.3rem;
+  bottom: 0.5rem;
   margin-left: 0.5rem;
 }
 
@@ -111,7 +111,7 @@ nav {
   background: none;
   border: none;
   position: relative;
-  bottom: 0.3rem;
+  bottom: 0.5rem;
 }
 
 h4 {
@@ -123,10 +123,31 @@ h4 {
   color: #95c6ff;
 }
 
-section {
-  background-color: yellow;
+#introduction {
+  margin-top: 3rem;
+  text-align: center;
+}
+#introduction p {
+  margin: 0.7rem auto 0;
+  width: 80%;
+  text-align: justify;
 }
 
 #mugshot {
   width: 10rem;
+  margin: 2rem auto 0;
+  border-radius: 10rem;
+}
+
+#skillset {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.skill__item {
+  background-color: rgb(240, 29, 29);
+  width: 100px;
+  height: 100px;
+  justify-self: center;
 }/*# sourceMappingURL=index.css.map */
