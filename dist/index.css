@@ -105,6 +105,7 @@ nav {
   background: none;
   border: none;
   display: flex;
+  text-transform: uppercase;
 }
 
 #home__button {
@@ -135,9 +136,9 @@ h4 {
 }
 
 #skillset {
-  margin-top: 2rem;
+  margin: 2rem auto 6rem;
   display: grid;
-  grid-template-rows: repeat(1fr);
+  grid-template-rows: 1fr;
 }
 
 .skill__item {
@@ -179,7 +180,7 @@ p {
 }
 
 #inspo__text {
-  margin: 3rem auto 2rem;
+  margin: 4rem auto 2rem;
 }
 
 #current__study {
@@ -206,5 +207,23 @@ p {
 }
 
 #works {
-  background-color: #61dafb;
+  margin: 4rem;
+}
+
+#works__grid {
+  display: grid;
+  grid-template-rows: repeat(100px);
+  gap: 2rem;
+}
+
+.work__item {
+  margin: auto;
+  background-color: gray;
+  width: 200px;
+  height: 200px;
+}
+
+#work__together {
+  color: #95c6ff;
+  font-size: 1.3rem;
 }/*# sourceMappingURL=index.css.map */
