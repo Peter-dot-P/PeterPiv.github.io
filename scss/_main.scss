@@ -5,11 +5,6 @@
 #introduction {
   margin-top: 3rem;
   text-align: center;
-  p {
-    margin: 0.7rem auto 0;
-    width: 80%;
-    text-align: justify;
-  }
 }
 
 #mugshot {
@@ -19,14 +14,79 @@
 }
 
 #skillset {
+  margin-top: 2rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: repeat(1fr);
 }
 
 .skill__item {
-  background-color: rgb(240, 29, 29);
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   justify-self: center;
+  margin: 0.5rem 0 3rem;
+  &:nth-of-type(4) {
+    max-height: 200px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &:nth-of-type(5) {
+    img {
+      margin: auto;
+      height: 200px;
+    }
+    .skill__name {
+      margin-top: 0.5rem;
+    }
+  }
+}
+.skill__name {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#active__study {
+  img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+  }
+}
+
+p {
+  margin: 0.7rem auto 0;
+  width: 75%;
+  text-align: center;
+}
+
+#inspo__text {
+  margin: 3rem auto 2rem;
+}
+
+#current__study {
+  color: #61dafb;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#colorful-front {
+  color: #ff8b61;
+}
+
+#colorful-end {
+  color: #95c6ff;
+}
+
+#colorful-dev {
+  color: #ffff00;
+}
+
+.study__decor {
+  color: white;
+}
+
+#works {
+  background-color: #61dafb;
 }
