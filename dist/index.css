@@ -218,6 +218,9 @@ p {
 #works {
   margin: 4rem;
 }
+#works p {
+  margin-bottom: 1rem;
+}
 
 #works__grid {
   display: grid;
@@ -227,9 +230,15 @@ p {
 
 .work__item {
   margin: auto;
-  background-color: gray;
+  background-color: hsl(0, 0%, 25%);
   width: 200px;
   height: 200px;
+  border-radius: 2rem;
+  transition: 0.3s ease-in-out;
+}
+.work__item:hover {
+  background-color: hsl(0, 0%, 60%);
+  transition: 0.3s ease-in-out;
 }
 
 #work__together {
@@ -265,4 +274,15 @@ p {
 .contact__item:nth-of-type(2) img {
   width: 80%;
   margin: auto;
+}
+
+#resume__link {
+  text-align: center;
+}
+#resume__link a {
+  color: white;
+}
+#resume__link a:hover {
+  color: #95c6ff;
+  transition: 0.2s ease-in-out;
 }/*# sourceMappingURL=index.css.map */

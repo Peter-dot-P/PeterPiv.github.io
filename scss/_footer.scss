@@ -37,3 +37,13 @@
     }
   }
 }
+#resume__link {
+  text-align: center;
+  a {
+    color: white;
+    &:hover {
+      color: #95c6ff;
+      transition: 0.2s ease-in-out;
+    }
+  }
+}
