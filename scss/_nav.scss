@@ -2,6 +2,8 @@
 
 nav {
   background-color: hsl(0, 0%, 30%);
+  position: sticky;
+  top: 0;
 }
 
 #nav__items {
@@ -19,7 +21,6 @@ nav {
   min-width: 2rem;
   align-items: center;
   position: relative;
-  bottom: 0.5rem;
   margin-left: 0.5rem;
 }
 
@@ -28,15 +29,16 @@ nav {
   border: none;
   display: flex;
   text-transform: uppercase;
+  align-items: center;
+  cursor: pointer;
 }
 
-#home__button {
-  background: none;
-  border: none;
-  position: relative;
-  bottom: 0.5rem;
-}
 h4 {
   color: white;
   letter-spacing: 1px;
+}
+
+.menu--alt {
+  background-color: hsla(0, 0%, 30%, 0.8);
+  transition: 1s ease-in-out;
 }

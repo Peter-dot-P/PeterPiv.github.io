@@ -7,6 +7,10 @@
   font-family: Inter-Bold;
   src: url(/fonts/Inter-Bold.ttf);
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   text-align: justify;
   line-height: 1.5;
@@ -88,6 +92,8 @@ h6 {
 
 nav {
   background-color: hsl(0, 0%, 30%);
+  position: sticky;
+  top: 0;
 }
 
 #nav__items {
@@ -106,7 +112,6 @@ nav {
   min-width: 2rem;
   align-items: center;
   position: relative;
-  bottom: 0.5rem;
   margin-left: 0.5rem;
 }
 
@@ -115,13 +120,8 @@ nav {
   border: none;
   display: flex;
   text-transform: uppercase;
-}
-
-#home__button {
-  background: none;
-  border: none;
-  position: relative;
-  bottom: 0.5rem;
+  align-items: center;
+  cursor: pointer;
 }
 
 h4 {
@@ -129,8 +129,19 @@ h4 {
   letter-spacing: 1px;
 }
 
+.menu--alt {
+  background-color: hsla(0, 0%, 30%, 0.8);
+  transition: 1s ease-in-out;
+}
+
 #user__name {
   color: #95c6ff;
+}
+
+#mugshot {
+  width: 10rem;
+  margin: 2rem auto 0;
+  border-radius: 10rem;
 }
 
 #introduction {
@@ -138,10 +149,16 @@ h4 {
   text-align: center;
 }
 
-#mugshot {
-  width: 10rem;
-  margin: 2rem auto 0;
-  border-radius: 10rem;
+#colorful-front {
+  color: #ff8b61;
+}
+
+#colorful-end {
+  color: #95c6ff;
+}
+
+#colorful-dev {
+  color: #ffff00;
 }
 
 #skillset {
@@ -193,22 +210,10 @@ p {
 }
 
 #current__study {
-  color: #61dafb;
+  color: #95c6ff;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
-}
-
-#colorful-front {
-  color: #ff8b61;
-}
-
-#colorful-end {
-  color: #95c6ff;
-}
-
-#colorful-dev {
-  color: #ffff00;
 }
 
 .study__decor {
@@ -259,13 +264,7 @@ p {
   width: 100px;
   height: 100px;
   text-align: center;
-  position: relative;
-  top: 2rem;
   margin: auto;
-}
-.contact__item:nth-of-type(1) img {
-  position: relative;
-  transform: translate(0, 50%);
 }
 .contact__item:nth-of-type(2) img {
   position: relative;
@@ -281,8 +280,21 @@ p {
 }
 #resume__link a {
   color: white;
+  transition: 0.2s ease-in-out;
 }
 #resume__link a:hover {
   color: #95c6ff;
   transition: 0.2s ease-in-out;
+}
+
+#email {
+  transform: translate(0, 50%);
+}
+
+#linkedin {
+  transform: translate(5%, 25%);
+}
+
+#github {
+  transform: translate(0, 15%);
 }/*# sourceMappingURL=index.css.map */

@@ -1,16 +1,27 @@
+@use "variables";
+
 #user__name {
-  color: #95c6ff;
+  color: variables.$important-color;
 }
-
-#introduction {
-  margin-top: 3rem;
-  text-align: center;
-}
-
 #mugshot {
   width: 10rem;
   margin: 2rem auto 0;
   border-radius: 10rem;
+}
+#introduction {
+  margin-top: 3rem;
+  text-align: center;
+}
+#colorful-front {
+  color: #ff8b61;
+}
+
+#colorful-end {
+  color: variables.$important-color;
+}
+
+#colorful-dev {
+  color: #ffff00;
 }
 
 #skillset {
@@ -65,24 +76,11 @@ p {
 }
 
 #current__study {
-  color: #61dafb;
+  color: variables.$important-color;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
 }
-
-#colorful-front {
-  color: #ff8b61;
-}
-
-#colorful-end {
-  color: #95c6ff;
-}
-
-#colorful-dev {
-  color: #ffff00;
-}
-
 .study__decor {
   color: white;
 }
