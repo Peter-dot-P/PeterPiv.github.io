@@ -1,9 +1,17 @@
+@use "queries";
 @import "/node_modules/flag-icons/css/flag-icons.min.css";
 
 nav {
-  background-color: hsl(0, 0%, 30%);
+  background-color: hsla(0, 0%, 30%);
   position: sticky;
   top: 0;
+  transition: 0.5s ease-in-out;
+  @include queries.responsive(850px) {
+    max-width: 70%;
+    margin: auto;
+    border-radius: 0 0 2rem 2rem;
+    transition: 0.5s ease-in-out;
+  }
 }
 
 #nav__items {
@@ -14,6 +22,17 @@ nav {
   img {
     width: 2.5rem;
     position: relative;
+  }
+  @include queries.responsive(600px) {
+    justify-content: center;
+    img {
+      position: relative;
+      left: -13rem;
+    }
+    #language__selector {
+      position: relative;
+      left: 13rem;
+    }
   }
 }
 .fi {
@@ -36,9 +55,4 @@ nav {
 h4 {
   color: white;
   letter-spacing: 1px;
-}
-
-.menu--alt {
-  background-color: hsla(0, 0%, 30%, 0.8);
-  transition: 1s ease-in-out;
 }

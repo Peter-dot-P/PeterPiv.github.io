@@ -1,0 +1,6 @@
+// Define a mixin for a media query
+@mixin responsive($breakpoint) {
+  @media screen and (min-width: $breakpoint) {
+    @content; // This is where the styles inside the mixin will be injected
+  }
+}

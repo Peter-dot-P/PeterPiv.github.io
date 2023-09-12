@@ -94,6 +94,15 @@ nav {
   background-color: hsl(0, 0%, 30%);
   position: sticky;
   top: 0;
+  transition: 0.5s ease-in-out;
+}
+@media screen and (min-width: 850px) {
+  nav {
+    max-width: 70%;
+    margin: auto;
+    border-radius: 0 0 2rem 2rem;
+    transition: 0.5s ease-in-out;
+  }
 }
 
 #nav__items {
@@ -105,6 +114,19 @@ nav {
 #nav__items img {
   width: 2.5rem;
   position: relative;
+}
+@media screen and (min-width: 600px) {
+  #nav__items {
+    justify-content: center;
+  }
+  #nav__items img {
+    position: relative;
+    left: -13rem;
+  }
+  #nav__items #language__selector {
+    position: relative;
+    left: 13rem;
+  }
 }
 
 .fi {
@@ -127,11 +149,6 @@ nav {
 h4 {
   color: white;
   letter-spacing: 1px;
-}
-
-.menu--alt {
-  background-color: hsla(0, 0%, 30%, 0.8);
-  transition: 1s ease-in-out;
 }
 
 #user__name {
@@ -166,6 +183,16 @@ h4 {
   display: grid;
   grid-template-rows: 1fr;
 }
+@media screen and (min-width: 800px) {
+  #skillset {
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    margin: auto;
+  }
+  #skillset .skill__item:nth-last-of-type(1) {
+    grid-column: 2 span;
+  }
+}
 
 .skill__item {
   width: 200px;
@@ -193,6 +220,9 @@ h4 {
   text-transform: uppercase;
 }
 
+#active__study {
+  margin-bottom: 10rem;
+}
 #active__study img {
   width: 200px;
   height: 200px;
@@ -204,9 +234,15 @@ p {
   width: 75%;
   text-align: center;
 }
+@media screen and (min-width: 600px) {
+  p {
+    max-width: 25rem;
+  }
+}
 
 #inspo__text {
   margin: 4rem auto 2rem;
+  max-width: 30rem;
 }
 
 #current__study {
@@ -231,6 +267,19 @@ p {
   display: grid;
   grid-template-rows: repeat(100px);
   gap: 2rem;
+  margin-top: 4rem;
+}
+@media screen and (min-width: 800px) {
+  #works__grid {
+    grid-template-columns: 1fr 1fr;
+    max-width: 80%;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #works__grid {
+    max-width: 50%;
+  }
 }
 
 .work__item {
@@ -244,6 +293,7 @@ p {
 .work__item:hover {
   background-color: hsl(0, 0%, 60%);
   transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 #work__together {
@@ -258,6 +308,7 @@ p {
 #contact__grid {
   display: grid;
   gap: 1rem;
+  margin: 0 0 5rem;
 }
 
 .contact__item {
