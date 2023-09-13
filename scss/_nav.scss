@@ -16,23 +16,17 @@ nav {
 
 #nav__items {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 1.5rem 0;
   margin: 0 0.5rem;
+  margin: auto;
   img {
     width: 2.5rem;
     position: relative;
   }
   @include queries.responsive(600px) {
-    justify-content: center;
-    img {
-      position: relative;
-      left: -13rem;
-    }
-    #language__selector {
-      position: relative;
-      left: 13rem;
-    }
+    justify-content: space-between;
+    max-width: 60%;
   }
 }
 .fi {
