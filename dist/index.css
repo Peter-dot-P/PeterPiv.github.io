@@ -21,6 +21,10 @@ body {
   background-color: #202020;
 }
 
+.dontshow {
+  display: none;
+}
+
 /*
   1. Use a more-intuitive box-sizing model.
 */

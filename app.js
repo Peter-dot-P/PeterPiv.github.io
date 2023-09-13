@@ -1,30 +1,46 @@
-"use strict";
+// "use strict";
 
-const nav = document.querySelector("nav");
-const navItems = document.querySelector("#nav__items");
-const langBtn = document.querySelector("#language__selector");
+const langButtons = document.querySelectorAll("#language__selector");
+const engTexts = document.querySelectorAll(".eng");
+const hunTexts = document.querySelectorAll(".hun");
 
-// solve how to translate the site using JS. tried json but having nested elements AND applying ids and classes to them is out of my realm
-let currentLanguage = "en";
-console.log(currentLanguage);
+const hunArray = Array.from(hunTexts);
+const engArray = Array.from(engTexts);
 
-langBtn.addEventListener("click", () => {
-  currentLanguage = currentLanguage === "en" ? "hu" : "en";
-  languageCheck(currentLanguage);
-  console.log(currentLanguage);
-});
+let currentLanguage = "en"; // Initial language is set to English
+// Initialize the page with english text
+translateText(currentLanguage);
 
-function languageCheck(currentLanguage) {
-  switch (currentLanguage) {
-    case "en":
-      console.log("its a da enrishu");
-      break;
-
-    case "hu":
-      console.log("its a da hurishu");
-      break;
-  }
+for (const button of langButtons) {
+  button.addEventListener("click", () => {
+    changeCurrentLang();
+  });
 }
 
-const h2 = document.querySelector("h2");
-const p = document.querySelectorAll("p");
+function changeCurrentLang() {
+  if (currentLanguage === "en") {
+    currentLanguage = "hu";
+  } else {
+    currentLanguage = "en";
+  }
+  console.log(`currentLanguage is set to ${currentLanguage}`);
+  translateText(currentLanguage);
+}
+
+function translateText(lang) {
+  if (lang === "en") {
+    engArray.forEach((element) => {
+      element.classList.remove("dontshow");
+    });
+    hunArray.forEach((element) => {
+      element.classList.add("dontshow");
+    });
+  } else if (lang === "hu") {
+    engArray.forEach((element) => {
+      element.classList.add("dontshow");
+    });
+    hunArray.forEach((element) => {
+      element.classList.remove("dontshow");
+    });
+  }
+}
