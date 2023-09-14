@@ -13,7 +13,10 @@
 #contact__grid {
   display: grid;
   gap: 1rem;
-  margin: 0 0 5rem;
+  padding: 0 0 5rem;
+  a {
+    margin: auto;
+  }
 }
 
 .contact__item {
