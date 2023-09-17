@@ -305,6 +305,10 @@ p {
   cursor: pointer;
   transform: scale(1.1);
 }
+.work__item:active,
+.work__item :focus {
+  background-color: hsl(0, 0%, 80%);
+}
 
 #work__together {
   color: #95c6ff;

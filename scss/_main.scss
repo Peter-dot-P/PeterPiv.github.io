@@ -141,4 +141,8 @@ p {
     cursor: pointer;
     transform: scale(1.1);
   }
+  &:active,
+  :focus {
+    background-color: hsl(0, 0%, 80%);
+  }
 }
