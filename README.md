@@ -1,6 +1,4 @@
-# underSkord.github.io
+# PeterPiv.github.io
 
-Personal Website (will go here, once it's done)
-https://underskord.github.io/
-
--- TODO --
+Personal Website
+https://PeterPiv.github.io
