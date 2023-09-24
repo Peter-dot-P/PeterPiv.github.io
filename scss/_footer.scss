@@ -1,5 +1,8 @@
 @use "variables";
 
+footer {
+  margin-top: 10rem;
+}
 #work__together {
   color: variables.$important-color;
   font-family: Inter-Bold, Impact, Haettenschweiler, "Arial Narrow Bold",
