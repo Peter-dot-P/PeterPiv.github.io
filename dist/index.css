@@ -270,14 +270,10 @@ p {
 }
 
 #works__grid {
-  display: grid;
-  grid-template-rows: repeat(100px);
-  gap: 2rem;
   margin-top: 4rem;
 }
 @media screen and (min-width: 800px) {
   #works__grid {
-    grid-template-columns: 1fr 1fr;
     max-width: 80%;
     margin: auto;
   }
