@@ -39,9 +39,9 @@
     width: 50%;
     margin: auto;
 
-    .skill__item:nth-last-of-type(1) {
-      grid-column: 2 span;
-    }
+    // .skill__item:nth-last-of-type(1) {
+    //   grid-column: 2 span;
+    // }
   }
 }
 
@@ -129,7 +129,7 @@ p {
 }
 
 .work__item {
-  margin: auto;
+  margin: 0 auto 3rem;
   background-color: hsl(0, 0%, 25%);
   width: 200px;
   height: 200px;
