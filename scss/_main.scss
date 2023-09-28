@@ -39,9 +39,9 @@
     width: 50%;
     margin: auto;
 
-    // .skill__item:nth-last-of-type(1) {
-    //   grid-column: 2 span;
-    // }
+    .skill__item:nth-last-of-type(1) {
+      grid-column: 2 span;
+    }
   }
 }
 
@@ -114,12 +114,12 @@ p {
 }
 
 #works__grid {
-  // display: grid;
-  // grid-template-rows: repeat(100px);
-  // gap: 2rem;
+  display: grid;
+  grid-template-rows: repeat(100px);
+  gap: 2rem;
   margin-top: 4rem;
   @include queries.responsive(800px) {
-    // grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     max-width: 80%;
     margin: auto;
   }
