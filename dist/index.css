@@ -197,9 +197,6 @@ h4 {
     width: 50%;
     margin: auto;
   }
-  #skillset .skill__item:nth-last-of-type(1) {
-    grid-column: 2 span;
-  }
 }
 
 .skill__item {
