@@ -1,11 +1,11 @@
 // "use strict";
 
 const langButtons = document.querySelectorAll("#language__selector");
-const engTexts = document.querySelectorAll(".eng");
-const hunTexts = document.querySelectorAll(".hun");
+const englishTexts = document.querySelectorAll(".eng");
+const hungarianTexts = document.querySelectorAll(".hun");
 
-const hunArray = Array.from(hunTexts);
-const engArray = Array.from(engTexts);
+const hunArray = Array.from(hungarianTexts);
+const engArray = Array.from(englishTexts);
 
 let currentLanguage = "en"; // Initial language is set to English
 // Initialize the page with english text
