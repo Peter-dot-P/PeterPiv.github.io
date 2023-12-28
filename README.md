@@ -1,4 +1,4 @@
-# PeterPiv.github.io
+# Personal Website
 
 Personal Website
-https://PeterPiv.github.io
+https://www.peterpivon.com/
